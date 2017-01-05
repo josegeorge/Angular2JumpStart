@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<button onclick="buttonOneLogic()">Button 1</button>
+<button onclick="buttonTwoLogic()">Button 2</button>
+
+<div id="area1"></div>
+<div id="area2"></div>
+
+@section Script{
+    <script src="~/Scripts/app.js"></script>
+    <script>
+    $(document).ready(function() {
+
+        btn1State = "no value";
+        btn2State = "no value";
+
+    });
+ </script>
+
+}
